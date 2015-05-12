@@ -15,5 +15,6 @@ $(document).ready(function() {
 
   $('.inner-box').on('mouseover', moveDoggy);
   $('.inner-box').on('mouseleave', moveDoggy);
+  $('.inner-box').on('click', moveDoggy);
 
 });
